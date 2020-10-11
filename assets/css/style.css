@@ -295,7 +295,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #FA2267;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -360,7 +360,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #FF3368;
+  background: #FA2267;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -1022,6 +1022,7 @@ section {
 .cafe{
 color: white;  
 text-align: center;
+text-decoration: none;
 }
 @-webkit-keyframes animate-loading {
   0% {
