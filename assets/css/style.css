@@ -353,6 +353,9 @@ section {
   bottom: 1px;
   left: calc(50% - 60px);
 }
+#bob{
+  border-radius: 100px;
+}
 
 .section-title h2::after {
   content: '';
