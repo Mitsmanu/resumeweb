@@ -26,6 +26,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.music-bg .lines span {
+    display: inline-flex;
+    margin: 0px 1px;
+    width: 7px;
+    height: 5px;
+    background: #fff;
+}
+.audio-on .music-bg .lines span:nth-child(2) {
+    -webkit-animation: musicline 2s 1s ease-out alternate infinite;
+    animation: musicline 2s 1s ease-out alternate infinite;}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
