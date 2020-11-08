@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #0563bb;
+  background: #FA2267;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #FA2267;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
