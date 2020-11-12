@@ -1,6 +1,6 @@
 ---
 summary: 'This repository contains the full code of the summary model of the personal portfolio, this code is subject to the intellectual property license so its reproduction is prohibited'
-time: '254 hours'
+time: '289 hours'
 deliverables: ' HTML file, 12 CSS files, images, js file, ejs file, php file, rubi file, md file'
 Demo: 'https://www.walalo.xyz'
 ---
