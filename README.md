@@ -3,7 +3,7 @@ summary: 'This repository contains the full code of the summary model of the per
 time: '289 hours'
 deliverables: ' HTML file, 12 CSS files, images, js file, ejs file, php file, rubi file, md file'
 Demo: 'https://www.walalo.xyz'
----
+--- 
 Host and status page: → ![Netlify Status](https://api.netlify.com/api/v1/badges/dd154e4e-6c1e-401f-965b-cbbb1dce6e1b/deploy-status)
 
 
