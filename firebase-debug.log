@@ -1,0 +1,176 @@
+[debug] [2020-12-05T03:01:57.964Z] ----------------------------------------------------------------------
+[debug] [2020-12-05T03:01:57.973Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-05T03:01:57.974Z] CLI Version:   8.17.0
+[debug] [2020-12-05T03:01:57.974Z] Platform:      win32
+[debug] [2020-12-05T03:01:57.975Z] Node Version:  v12.16.3
+[debug] [2020-12-05T03:01:57.980Z] Time:          Fri Dec 04 2020 22:01:57 GMT-0500 (GMT-05:00)
+[debug] [2020-12-05T03:01:57.982Z] ----------------------------------------------------------------------
+[debug] [2020-12-05T03:01:57.983Z] 
+[debug] [2020-12-05T03:01:58.019Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-05T03:01:58.023Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\manue\OneDrive\Escritorio\resumeweb
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2020-12-05T03:02:35.305Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"dbsystem","name":"dbsystem"}
+[debug] [2020-12-05T03:02:36.844Z] <<< HTTP RESPONSE 409 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Sat, 05 Dec 2020 03:02:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=312","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-05T03:02:36.845Z] <<< HTTP RESPONSE BODY {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2020-12-05T03:02:37.264Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at module.exports (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID dbsystem. Please try again with a unique project ID.
+[debug] [2020-12-05T03:02:55.220Z] ----------------------------------------------------------------------
+[debug] [2020-12-05T03:02:55.231Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-05T03:02:55.232Z] CLI Version:   8.17.0
+[debug] [2020-12-05T03:02:55.234Z] Platform:      win32
+[debug] [2020-12-05T03:02:55.234Z] Node Version:  v12.16.3
+[debug] [2020-12-05T03:02:55.239Z] Time:          Fri Dec 04 2020 22:02:55 GMT-0500 (GMT-05:00)
+[debug] [2020-12-05T03:02:55.239Z] ----------------------------------------------------------------------
+[debug] [2020-12-05T03:02:55.240Z] 
+[debug] [2020-12-05T03:02:55.271Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-05T03:02:55.278Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\manue\OneDrive\Escritorio\resumeweb
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-12-05T03:03:29.132Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/availableProjects?pageSize=100  
+ 
+[debug] [2020-12-05T03:03:29.923Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 05 Dec 2020 03:03:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-05T03:03:34.561Z] >>> HTTP REQUEST POST https://firebase.googleapis.com/v1beta1/projects/bold-case-278404:addFirebase  
+ 
+[debug] [2020-12-05T03:03:35.361Z] <<< HTTP RESPONSE 400 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Sat, 05 Dec 2020 03:03:35 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-12-05T03:03:35.363Z] <<< HTTP RESPONSE BODY {"error":{"code":400,"message":"Billing Account [billingAccounts/01F6B4-D3DE47-3B3D2E] cannot pay for businessEntity/CLOUD_PLATFORM","status":"FAILED_PRECONDITION"}}
+[debug] [2020-12-05T03:03:35.368Z] HTTP Error: 400, Billing Account [billingAccounts/01F6B4-D3DE47-3B3D2E] cannot pay for businessEntity/CLOUD_PLATFORM
+[debug] [2020-12-05T03:03:36.024Z] FirebaseError: HTTP Error: 400, Billing Account [billingAccounts/01F6B4-D3DE47-3B3D2E] cannot pay for businessEntity/CLOUD_PLATFORM
+    at module.exports (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Request._callback (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:41:35)
+    at Request.self.callback (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.<anonymous> (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1154:10)
+    at Request.emit (events.js:310:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at IncomingMessage.<anonymous> (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:1076:12)
+    at Object.onceWrapper (events.js:416:28)
+    at IncomingMessage.emit (events.js:322:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1187:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2020-12-05T03:03:53.011Z] ----------------------------------------------------------------------
+[debug] [2020-12-05T03:03:53.022Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-12-05T03:03:53.024Z] CLI Version:   8.17.0
+[debug] [2020-12-05T03:03:53.025Z] Platform:      win32
+[debug] [2020-12-05T03:03:53.025Z] Node Version:  v12.16.3
+[debug] [2020-12-05T03:03:53.032Z] Time:          Fri Dec 04 2020 22:03:53 GMT-0500 (GMT-05:00)
+[debug] [2020-12-05T03:03:53.033Z] ----------------------------------------------------------------------
+[debug] [2020-12-05T03:03:53.034Z] 
+[debug] [2020-12-05T03:03:53.067Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-12-05T03:03:53.070Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\manue\OneDrive\Escritorio\resumeweb
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-12-05T03:04:29.921Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-12-05T03:04:30.541Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","cross-origin-resource-policy":"cross-origin","content-length":"1411","date":"Sat, 05 Dec 2020 03:04:30 GMT","expires":"Sat, 05 Dec 2020 03:54:30 GMT","last-modified":"Fri, 04 Dec 2020 02:12:08 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"0","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\manue\OneDrive\Escritorio\resumeweb 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=78921453&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2020-12-05T03:04:58.542Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"9eb2cbb0701619e4767d","redirect_uri":"http://localhost:9005","state":"78921453"}
+[debug] [2020-12-05T03:04:59.353Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sat, 05 Dec 2020 03:04:59 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","status":"200 OK","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","etag":"W/\"76098620cc8c36ea09f4bdc1b436d5cb\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker.js gist.github.com/socket-worker.js","x-github-request-id":"32D8:6BA6:5985EF:8ECE3E:5FCAF8DB"}
+[debug] [2020-12-05T03:04:59.370Z] >>> HTTP REQUEST GET https://api.github.com/user  
+ 
+[debug] [2020-12-05T03:05:00.319Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sat, 05 Dec 2020 03:05:00 GMT","content-type":"application/json; charset=utf-8","content-length":"1570","status":"200 OK","cache-control":"private, max-age=60, s-maxage=60","vary":"Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With","etag":"\"e0e4508ae0475668fe9d7934d3bede43b7c3208bb8a77ae547e53fa61f588312\"","last-modified":"Sat, 05 Dec 2020 03:04:56 GMT","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4999","x-ratelimit-reset":"1607141100","x-ratelimit-used":"1","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","x-github-request-id":"2BD3:553E:E6635C:18FBEA6:5FCAF8DC"}
+[info] 
+[info] +  Success! Logged into GitHub as Mitsmanu 
+[info] 
+[debug] [2020-12-05T03:05:17.828Z] >>> HTTP REQUEST GET https://api.github.com/repos/https://github.com/Mitsmanu/dbsyst/actions/secrets/public-key?type=owner  
+ 
+[debug] [2020-12-05T03:05:18.397Z] <<< HTTP RESPONSE 404 {"server":"GitHub.com","date":"Sat, 05 Dec 2020 03:05:18 GMT","content-type":"application/json; charset=utf-8","content-length":"74","status":"404 Not Found","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"repo","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4998","x-ratelimit-reset":"1607141100","x-ratelimit-used":"2","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","vary":"Accept-Encoding, Accept, X-Requested-With","x-github-request-id":"2E3D:6A9B:FA26E4:1A5A8F3:5FCAF8EE"}
+[debug] [2020-12-05T03:05:18.398Z] <<< HTTP RESPONSE BODY Not Found {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[debug] [2020-12-05T03:05:30.288Z] >>> HTTP REQUEST GET https://api.github.com/repos/Mitsmanu/dbsyst/actions/secrets/public-key?type=owner  
+ 
+[debug] [2020-12-05T03:05:30.725Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sat, 05 Dec 2020 03:05:31 GMT","content-type":"application/json; charset=utf-8","content-length":"84","status":"200 OK","cache-control":"private, max-age=60, s-maxage=60","vary":"Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With","etag":"\"a65b719ea7e486c7d99d75a2af5f9a593f1ab813163580d38ffc89cf85438228\"","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4997","x-ratelimit-reset":"1607141100","x-ratelimit-used":"3","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","x-github-request-id":"2FB6:72AD:41E6D7:AEA91F:5FCAF8FA"}
+[debug] [2020-12-05T03:05:30.733Z] >>> HTTP REQUEST GET https://api.github.com/repos/Mitsmanu/dbsyst  
+ 
+[debug] [2020-12-05T03:05:31.235Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Sat, 05 Dec 2020 03:05:31 GMT","content-type":"application/json; charset=utf-8","content-length":"4834","status":"200 OK","cache-control":"private, max-age=60, s-maxage=60","vary":"Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With","etag":"\"e3420434f141ba3c48ae4dd43be127f2fd15443118ed93d2a2470cd70b6d1a3f\"","last-modified":"Sat, 05 Dec 2020 02:21:04 GMT","x-oauth-scopes":"read:user, repo","x-accepted-oauth-scopes":"repo","x-oauth-client-id":"89cf50f02ac6aaed3484","x-github-media-type":"github.v3","x-ratelimit-limit":"5000","x-ratelimit-remaining":"4996","x-ratelimit-reset":"1607141100","x-ratelimit-used":"4","access-control-expose-headers":"ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset","access-control-allow-origin":"*","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"1; mode=block","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","content-security-policy":"default-src 'none'","x-github-request-id":"2F9B:29B2:423A0F:ACB6AE:5FCAF8FB"}
+[debug] [2020-12-05T03:05:31.647Z] TypeError: Cannot read property 'replace' of undefined
+    at C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:56:14
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\manue\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\github.js:5:58)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[error] 
+[error] Error: An unexpected error has occurred.
