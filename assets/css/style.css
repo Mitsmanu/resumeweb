@@ -259,7 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bgkasio.png") top right no-repeat;
+  background: url("../img/hero-bgtok.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -285,11 +285,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: black;
+  color:  #FF0;
 }
 
 #hero p {
-  color: #FF0;
+  color: #FF3368;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
@@ -320,7 +320,7 @@ a{
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #FF0;
+  color: #FF3368;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
